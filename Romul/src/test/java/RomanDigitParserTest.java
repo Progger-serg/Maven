@@ -12,7 +12,6 @@ class RomanDigitParserTest {
     void parseTest001() {
         assertEquals(1, RomanDigitParser.parse("I"));
     }
-
     @Test
     void parseTest002() {
         assertEquals(2, RomanDigitParser.parse("II"));
